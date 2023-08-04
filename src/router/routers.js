@@ -107,6 +107,7 @@ export default [
     },
     component: Main,
     children: [
+      /*
       {
         path: 'tree_select_page',
         name: 'tree_select_page',
@@ -170,6 +171,7 @@ export default [
         },
         component: () => import('@/view/components/cropper/cropper.vue')
       },
+       */
       {
         path: 'tables_page',
         name: 'tables_page',
@@ -178,7 +180,8 @@ export default [
           title: '多功能表格'
         },
         component: () => import('@/view/components/tables/tables.vue')
-      },
+      }
+      /*,
       {
         path: 'split_pane_page',
         name: 'split_pane_page',
@@ -215,6 +218,7 @@ export default [
         },
         component: () => import('@/view/components/icons/icons.vue')
       }
+       */
     ]
   },
   {
